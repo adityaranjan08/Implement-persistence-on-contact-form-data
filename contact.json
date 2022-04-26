@@ -1,0 +1,60 @@
+{
+  "contact": [
+    {
+      "id": 1,
+      "firstName": "Aditya",
+      "lastName": "Ranjan",
+      "email": "adityaranjan92@gmail.com",
+      "homeNo": "+919235096844",
+      "workNo": "+919235096845",
+      "homeNo1": "",
+      "workNo1": "",
+      "dob": "1998-02-22",
+      "company": "abc",
+      "jobTitle": "abha",
+      "notes": "sa"
+    },
+    {
+      "id": 2,
+      "firstName": "Animesh",
+      "lastName": "Kumar",
+      "email": "animesh@gmail.com",
+      "homeNo": "+919235096844",
+      "workNo": "+919235096845",
+      "homeNo1": "+919235096844",
+      "workNo1": "+919235096845",
+      "dob": "1998-09-19",
+      "company": "cgi",
+      "jobTitle": "SDE1",
+      "notes": "da"
+    },
+    {
+      "firstName": "Amit",
+      "lastName": "khare",
+      "email": "adityaranjan92@gmail.com",
+      "homeNo": "+917992344518",
+      "workNo": "+919235096845",
+      "homeNo1": "+919235096844",
+      "workNo1": "+919235096845",
+      "dob": "1999-01-22",
+      "company": "Amazon",
+      "jobTitle": "SDE1",
+      "notes": "ds",
+      "id": 3
+    },
+    {
+      "firstName": "Harshit",
+      "lastName": "Kumar",
+      "email": "harshit123@gmail.com",
+      "homeNo": "+919235096844",
+      "workNo": "+919235096845",
+      "homeNo1": "",
+      "workNo1": "",
+      "dob": "1996-08-06",
+      "company": "Mindtree",
+      "jobTitle": "Developer",
+      "notes": "Hello",
+      "id": 4
+    }
+  ]
+}
