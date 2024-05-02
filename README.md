@@ -1,52 +1,63 @@
-## Practice Challenge
+## Implement Persistence on Contact Form Data
 
-### Implement Persistence on Contact form data​
+This repository explores techniques for persisting user data submitted through a contact form. 
 
-#### Context
+**What is Contact Form Persistence?**
 
-Prime Solutions is an IT solutions provider company who have earned reputation in providing IT solutions in different business domains
+When someone submits a contact form, their information is typically sent to an email address or stored temporarily. Contact form persistence refers to techniques that allow you to save this submitted data for later retrieval or processing.
 
-Recently they have received a project to develop contact book app.
+**Benefits of Persistence:**
 
-Prime Solutions have approached Graffitti designers for a good UI design.
+* **Improved User Experience:** Users don't have to refill the form if there's a submission error or if they need to revisit their information.
+* **Data Organization and Analysis:** Persisted data can be organized and analyzed to understand user inquiries, feedback, or trends.
+* **Enhanced Workflow:** Persistence can streamline workflows by allowing you to access and manage contact information more efficiently.
 
-The design is ready and now it needs to be made functional.
+**Approaches to Persistence (Potential):**
 
-The development will be carried out in stages.
+This repository might explore various methods for persisting contact form data. Here are some common possibilities:
 
-The development is carried out in phases. The first phase is complete, whereby the inputs are captured and validated ​
+* **Client-side Storage (Cookies or Local Storage):**  
+  - Limited data storage capabilities.
+  - Data might be accessible or modifiable by users.
+* **Server-side Sessions:**
+  - Data is stored on the server-side during a user session.
+  - Data is typically cleared when the session ends.
+* **Databases:**
+  - More secure and scalable storage solution.
+  - Allows for long-term data persistence and retrieval.
 
-In the second phase of development, you as a frontend developer have to develop solution to posted all to contacts.json file residing at the server​
+**Getting Started:**
 
-##### Contact Form
+This repository likely focuses on demonstrating the implementation of persistence techniques. The specific instructions will depend on the chosen method. Here's a general guideline:
 
-Graffitti Designers have designed contact form that allows app users to provide inputs
+1. **Clone the repository:**
 
-Below is the image of UI of contact form.
+   ```bash
+   git clone https://github.com/adityaranjan08/Implement-persistence-on-contact-form-data.git
+   ```
 
-![](images/contact-form.png)
+2. **Explore the code:** The codebase might include examples for different persistence approaches. Look for comments or instructions within the code.
 
-#### Challenge
+3. **Set up the environment:**  
+   - The requirements will vary depending on the chosen method (e.g., server-side language, database connection).
 
-The inputs are captured and validated but the data is yet not persisted
+4. **Run the application:**  
+   - Follow the instructions within the repository to execute the code and see the persistence functionality in action.
 
-The data should be persisted to `contacts.json` file served through json-server
+**Learning Objectives:**
 
-#### Problem Statement
+By exploring this repository, you can gain practical understanding of:
 
-Persist the data to contacts.json by making HTTP calls to json-server
+* Different techniques for persisting contact form data.
+* The advantages and limitations of each approach.
+* Potential code implementations for server-side or client-side persistence (depending on the repository's content).
 
-Ensure the response is communicated to the end-user, both for success and failures
+**Contribution:**
 
+If you have experience with alternative persistence methods or improvements to the existing code, feel free to contribute through pull requests!
 
-#### Instructions
+**Disclaimer:**
 
-1. Fork the boilerplate
-2. Clone the forked repository
-3. Provide the solution code inside the script file `contact_service.js`.
-4. The validation code can be reused from previous challenge and can be kept in `script.js`
-5. Ensure no other codes get modified, else, the rendering logic will fail to generate desired output.
-6. Launch the `index.html` page on the browser to view the rendered output
-7. `contacts.json` should be created and put under a separate folder outside the application folder
-8. Command to run json-server is:
-`json-server -w contacts.json`
+This readme assumes the repository showcases code for implementing persistence on contact form data. Adjust the details if the content focuses on a different aspect.
+
+This readme highlights the purpose of the repository, the benefits of contact form persistence, and potential approaches explored within the code. It also provides a general guide for getting started and learning objectives. Remember to tailor the specifics based on the repository's actual content.
